@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProAspMvc5", "MyProAspMvc5\MyProAspMvc5.csproj", "{8AFA675C-2CE2-4B5C-9924-95556E318EEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProAspMvc5.Tests", "MyProAspMvc5.Tests\MyProAspMvc5.Tests.csproj", "{42BCB843-0EC0-47D2-8893-8AF9D7AA7EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AFA675C-2CE2-4B5C-9924-95556E318EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFA675C-2CE2-4B5C-9924-95556E318EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFA675C-2CE2-4B5C-9924-95556E318EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFA675C-2CE2-4B5C-9924-95556E318EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BCB843-0EC0-47D2-8893-8AF9D7AA7EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BCB843-0EC0-47D2-8893-8AF9D7AA7EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BCB843-0EC0-47D2-8893-8AF9D7AA7EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BCB843-0EC0-47D2-8893-8AF9D7AA7EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95392CB7-3C87-423C-9B57-E55040903AEF}
+	EndGlobalSection
+EndGlobal
