@@ -1,0 +1,9 @@
+﻿@using MvcMusicStoreApp.Models
+@model Album
+<fieldset>
+    <legend>Genre Information</legend>
+    <div>
+        @Html.LabelFor(model => ViewData.Model.GenreId)
+        @Html.EditorFor(model => ViewData.Model.GenreId)
+    </div>
+</fieldset>

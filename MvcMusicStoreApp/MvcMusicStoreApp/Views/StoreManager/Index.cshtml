@@ -1,0 +1,20 @@
+﻿@using MvcMusicStoreApp.Models
+@using MvcMusicStoreApp.Utils.ExtensionMethods
+@model IEnumerable<Album>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div>
+    @{Html.BeginForm(nameof(StoreManagerController.GetAlbumsByArtist), ControllerExtensions.RemoveControllerSuffix<StoreManagerController>(), FormMethod.Get);}
+        <label for="albumSearchId">Search Album</label>
+        <input id="artistName" name="artistName" type="text" />
+        <br/>
+        <input type="submit" value="Search" />
+    @{Html.EndForm();}
+</div>
